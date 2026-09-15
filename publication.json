@@ -1,0 +1,45 @@
+{
+  "schema": "mewgenics-research-conclusions-publication/v1",
+  "destination_repository": "Lqrds/1234",
+  "destination_visibility_observed": "public",
+  "existing_file_preserved": ".gitkeep",
+  "audit_date": "2026-09-15",
+  "production_repository": "Lqrds/mewgenics-bridge",
+  "production_commit": "d1edf28d7bd09dab7e051763aaf642f33a650a75",
+  "research_commit": "0e360fa59d3d85e9016a661a2b7815411718c9ee",
+  "earlier_research_commit": "836d59143ed04d07c61bb552dd764f6173d4259d",
+  "edition": "public-conclusions-not-verbatim-full-research-package",
+  "source_artifacts": {
+    "zip": {
+      "name": "mewgenics-runtime-research-d1edf28.zip",
+      "sha256": "6057f29cd14eab8be94eaaeb2cacf106c048fd0cf86ccd8582eb3660f8411183"
+    },
+    "bundle": {
+      "name": "mewgenics-runtime-research-d1edf28.bundle",
+      "sha256": "b0b87852d216cd0e1d5a6b7789424e6e0ca7d13ae29687bac7ccfdd5608916d5"
+    }
+  },
+  "coverage": {
+    "domains": 10,
+    "requirements": 76,
+    "rows": 88,
+    "classification_counts": {"A": 49, "B": 1, "C": 23, "D": 14, "E": 1},
+    "production_source_records": 30,
+    "community_source_entries": 14,
+    "grade_changes_from_first_audit": 47,
+    "diagnostic_only_rows": 29,
+    "native_private_rows": 8,
+    "counts_are_not_completion_percentages": true
+  },
+  "boundaries": {
+    "main_project_modified": false,
+    "game_launched_or_controlled": false,
+    "runtime_verified_in_this_audit": false,
+    "signature_matched_in_this_audit": false,
+    "end_to_end_bridge_acceptance_granted": false,
+    "main_project_source_copied": false,
+    "game_assets_uploaded": false,
+    "private_profiles_or_live_captures_uploaded": false,
+    "full_research_zip_or_bundle_uploaded": false
+  }
+}
