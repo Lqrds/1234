@@ -1,0 +1,42 @@
+{
+  "schema": "mewgenics-research-archive/v1",
+  "version": "d1edf28",
+  "repository": "Lqrds/1234",
+  "bridge_baseline_commit": "d1edf28d7bd09dab7e051763aaf642f33a650a75",
+  "research_head_commit": "0e360fa59d3d85e9016a661a2b7815411718c9ee",
+  "research_initial_commit": "836d59143ed04d07c61bb552dd764f6173d4259d",
+  "research_commit_count": 2,
+  "snapshot_tracked_file_count": 71,
+  "planned_release_tag": "research-d1edf28",
+  "publication_state_at_this_commit": "local_verified_release_upload_pending",
+  "release_url": null,
+  "release_assets_uploaded": false,
+  "raw_research_expanded_in_main": false,
+  "original_archive_bytes_preserved": true,
+  "checksum_file": "SHA256SUMS.txt",
+  "artifacts": [
+    {
+      "name": "mewgenics-runtime-research-d1edf28.zip",
+      "size_bytes": 208864,
+      "sha256": "6057f29cd14eab8be94eaaeb2cacf106c048fd0cf86ccd8582eb3660f8411183",
+      "purpose": "Full research snapshot; 71 files"
+    },
+    {
+      "name": "mewgenics-runtime-research-d1edf28.bundle",
+      "size_bytes": 219531,
+      "sha256": "b0b87852d216cd0e1d5a6b7789424e6e0ca7d13ae29687bac7ccfdd5608916d5",
+      "purpose": "Matching complete research Git history; 2 commits"
+    }
+  ],
+  "local_checks": {
+    "sha256": "passed",
+    "zip_crc": "passed",
+    "git_bundle_verify": "passed",
+    "git_bundle_restore": "passed",
+    "zip_vs_restored_tracked_files_byte_comparison": "passed"
+  },
+  "current_turn_signature_matching": false,
+  "current_turn_runtime_verification": false,
+  "current_turn_bridge_modifications": false,
+  "note": "The publication tag belongs to the conclusions repository. It is not the Bridge baseline SHA or the research commit inside the bundle. GitHub automatic Source code archives are not substitutes for these named assets."
+}
